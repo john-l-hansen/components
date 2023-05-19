@@ -1323,6 +1323,11 @@
     <h2 class="text-4xl">Bread Crumbs</h2>
   </div>
 
+
+
+
+
+
   <!--First breadcrumb-->
 <nav class="font-lato w-full rounded-md">
   <ol class="list-reset flex">
@@ -1423,8 +1428,7 @@
       <a
         href="#"
         class="text-gray-900 transition duration-150 ease-in-out hover:text-gray-600 focus:text-gray-600 active:text-gray-900"
-        >Breadcrumb 1</a
-      >
+        >Breadcrumb 1</a>
     </li>
 
     <li>
@@ -1469,3 +1473,238 @@
     <li class="text-gray-500">Breadcrumb 5</li>
   </ol>
 </nav>
+
+
+<!-- Tooltip -->
+  <div class="pb-10 pt-20 w-full">
+    <h2 class="text-4xl">(To-Do) Tooltip</h2>
+  </div>
+
+<p>
+  Hover the link to see the
+  <a
+    href="#"
+    class="transititext-primary text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700"
+    data-te-toggle="tooltip"
+    title="Hi! I'm tooltip"
+    >tooltip</a
+  >
+</p>
+
+<div class="pb-10 pt-20 w-full">
+    <h2 class="text-4xl">Tag</h2>
+</div>
+
+
+<div
+
+  data-te-chip-init
+  data-te-ripple-init
+  class="[word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center rounded-[16px] border border-[#3b71ca] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#3b71ca] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="4" cy="4" r="4" fill="#00A8EC"/>
+</svg>
+  </span>
+  Active
+  
+</div>
+
+<!-- 
+<div
+  data-te-chip-init
+  data-te-ripple-init
+  class="[word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] border border-[#9fa6b2] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#9fa6b2] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  Secondary
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-3 w-3">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </span>
+</div>
+
+<div
+  data-te-chip-init
+  data-te-ripple-init
+  class="[word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] border border-[#14a44d] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#14a44d] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  Success
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-3 w-3">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </span>
+</div>
+
+<div
+  data-te-chip-init
+  data-te-ripple-init
+  class=" [word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] border border-[#dc4c64] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#dc4c64] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  Danger
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-3 w-3">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </span>
+</div>
+
+<div
+  data-te-chip-init
+  data-te-ripple-init
+  class="[word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] border border-[#e4a11b] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#e4a11b] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  Warning
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-3 w-3">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </span>
+</div>
+
+<div
+  data-te-chip-init
+  data-te-ripple-init
+  class="[word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] border border-[#54b4d3] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#54b4d3] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  Info
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-3 w-3">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </span>
+</div>
+
+<div
+  data-te-chip-init
+  data-te-ripple-init
+  class="[word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] border border-[#fbfbfb] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#fbfbfb] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  Light
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-3 w-3">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </span>
+</div>
+
+<div
+  data-te-chip-init
+  data-te-ripple-init
+  class="[word-wrap: break-word] my-[5px] mr-4 flex h-[32px] cursor-pointer items-center justify-between rounded-[16px] border border-[#332d2d] bg-[#eceff1] bg-[transparent] px-[12px] py-0 text-[13px] font-normal normal-case leading-loose text-[#4f4f4f] shadow-none transition-[opacity] duration-300 ease-linear hover:border-[#332d2d] hover:!shadow-none dark:text-neutral-200"
+  data-te-ripple-color="dark">
+  Dark
+  <span
+    data-te-chip-close
+    class="float-right w-4 cursor-pointer pl-[8px] text-[16px] text-[#afafaf] opacity-[.53] transition-all duration-200 ease-in-out hover:text-[#8b8b8b] dark:text-neutral-400 dark:hover:text-neutral-100">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-3 w-3">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </span>
+</div> -->
+
+<div class="pb-10 pt-20 w-full">
+    <h2 class="text-4xl">(To-Do) Tooltip</h2>
+</div>
+
+<div class="flex">
+
+
+<button class="py-1.5 px-3 flex justify-center items-center border border-solid border-sky-600 rounded-full font-bold leading-5 text-sm text-sky-600 bg-white hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 font-lato">
+  <div>
+    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="4" cy="4" r="4" fill="#00A8EC"/>
+    </svg>
+  </div>
+  <div class="ml-2">Active</div>
+</button>
+
+<button class="py-1.5 px-3 flex justify-center items-center border border-solid border-sky-600 rounded-full font-bold leading-5 text-sm text-sky-600 bg-white hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 font-lato">
+  <div>
+    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="4" cy="4" r="4" fill="#00A8EC"/>
+    </svg>
+  </div>
+  <div class="ml-2">Active</div>
+</button>
+
+</div>
