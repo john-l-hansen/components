@@ -1896,7 +1896,7 @@
 
 <!-- Start 'Tooltip Default' -->
   <h3 class="font-mono mt-8 mb-2">Default</h3>
-  <div class="bg-gray-200 py-10 flex items-center justify-center space-x-8">
+  <div class="py-10 flex space-x-8">
 
   <!-- Start right arrow -->
     <div class="relative bg-gray-100 px-3 py-2 rounded-lg">
@@ -1936,7 +1936,7 @@
 </div>
 
 <h3 class="font-mono mt-8 mb-2">Dark</h3>
-<div class="bg-night-500 py-10 flex items-center justify-center space-x-8">
+<div class="py-10 flex space-x-8">
 
 <!-- Start 'Tooltip Dark' -->
   <!-- Start right arrow -->
@@ -1979,7 +1979,7 @@
 <!-- End 'Tooltip Dark' -->
 
 <h3 class="font-mono mt-8 mb-2">Light</h3>
-<div class="bg-gray-100 py-10 flex items-center justify-center space-x-8">
+<div class="py-10 flex space-x-8">
 
 <!-- Start 'Tooltip Light' -->
   <!-- Start right arrow -->
@@ -2018,5 +2018,45 @@
   </div>
   <!-- End bottom arrow -->
 </div>
-  
 <!-- End 'Tooltip Light' -->
+</section>
+
+<!-- Start 'Scrollbars' -->
+<section>
+  <div class="w-full pb-10 pt-20">
+    <h2 class="text-4xl">✅ Scrollbars</h2>
+  </div>
+
+  <h3 class="font-mono my-4">horizontal</h3>
+<section class="mt-8 space-y-10 max-w-[250px]">
+  <div class="flex w-full h-1 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
+  <div class="flex flex-col justify-center rounded-full overflow-hidden bg-gray-800" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="flex w-full h-1 bg-gray-200 rounded-full overflow-hidden">
+  <div class="flex flex-col justify-center overflow-hidden rounded-full bg-gray-800" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+  <div class="flex flex-col justify-center overflow-hidden rounded-full bg-gray-800" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+  <div class="flex flex-col justify-center overflow-hidden rounded-full bg-gray-800" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</section>
+
+<div class="mt-20"></div>
+
+<h3 class="font-mono my-4">vertical</h3>
+<div class="flex space-x-10 h-[250px]">
+  <div class="flex flex-col flex-nowrap justify-end w-1 h-full bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="flex flex-col flex-nowrap h-full justify-end w-1 bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="flex flex-col flex-nowrap h-full justify-end w-2 bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="flex flex-col flex-nowrap justify-end h-full w-2 bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+</section>
