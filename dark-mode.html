@@ -304,24 +304,26 @@
   <h3 class="font-mono text-xs uppercase tracking-widest text-green-400 underline underline-offset-8">% Size variations</h3>
 
   <section class="flex-col space-y-4">
+    <h4 class="font-mono text-xs uppercase tracking-widest text-green-400">Active</h4>
     <!-- Start active -->
     <!-- Small -->
 
-    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-2 py-0.5 font-lato text-sm font-medium leading-5 text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Small</button>
+    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-2 py-0.5 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Small</button>
 
     <!-- Regular -->
-    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-6 py-2 font-lato text-sm font-medium leading-5 text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Regular</button>
+    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-6 py-2 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Regular</button>
 
     <!-- Medium -->
-    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-[74px] py-2 font-lato text-sm font-medium leading-5 text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Medium</button>
+    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-[74px] py-2 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Medium</button>
 
     <!-- Large -->
-    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-40 py-4 font-lato text-sm font-medium leading-5 text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Large</button>
+    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-40 py-4 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Large</button>
 
     <!-- Extra Large -->
-    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-60 py-4 font-lato text-sm font-medium leading-5 text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Extra Large</button>
+    <button class="flex items-center justify-center rounded-lg bg-gray-800 px-60 py-4 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-500 dark:focus:bg-gray-500 dark:active:bg-gray-300">Extra Large</button>
     <!-- End active -->
 
+    <h4 class="font-mono text-xs uppercase tracking-widest text-green-400">Disabled</h4>
     <!-- Start disabled -->
     <!-- Small -->
     <button class="flex cursor-not-allowed items-center justify-center rounded-lg bg-gray-100 px-2 py-0.5 font-lato text-sm font-medium leading-5 text-gray-300 dark:bg-gray-900 dark:text-gray-700">Small</button>
@@ -344,12 +346,93 @@
 
   <!-- Start 'Toggles' -->
   <hr class="border-gray-200 dark:border-gray-900" />
-  <h3 class="font-mono text-xs uppercase tracking-widest text-green-400 underline underline-offset-8">%</h3>
+  <h3 class="font-mono text-xs uppercase tracking-widest text-green-400 underline underline-offset-8">% Toggles</h3>
   <section class="flex-col space-y-4"></section>
+
+  <!-- Start Enabled -->
+  <!-- Start Standard -->
+  <div class="flex">
+    <button class="flex items-center justify-center rounded-l-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">Selection</button>
+    <button class="flex items-center justify-center rounded-r-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">Selection</button>
+  </div>
+  <!-- End Standard -->
+
+  <!-- Start Icon Leading -->
+  <div class="flex">
+    <button class="flex items-center justify-center rounded-l-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">
+      <div>
+        <svg class="mr-2" width="18" height="18" fill="none" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.25 9.75H9.75V14.25H8.25V9.75H3.75V8.25H8.25V3.75H9.75V8.25H14.25V9.75Z" class="fill-current" />
+        </svg>
+      </div>
+      Selection
+    </button>
+    <button class="flex items-center justify-center rounded-r-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">
+      <div>
+        <svg class="mr-2" width="18" height="18" fill="none" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.25 9.75H9.75V14.25H8.25V9.75H3.75V8.25H8.25V3.75H9.75V8.25H14.25V9.75Z" class="fill-current" />
+        </svg>
+      </div>
+      Selection
+    </button>
+  </div>
+  <!-- End Icon Leading -->
+  <!-- End Enabled -->
+
+  <!-- Start Disabled -->
+  <!-- Start Standard -->
+  <div class="flex">
+    <button class="flex items-center justify-center rounded-l-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">Selection</button>
+    <button class="flex items-center justify-center rounded-r-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">Selection</button>
+  </div>
+  <!-- End Standard -->
+
+  <!-- Start Icon Leading -->
+  <div class="flex">
+    <button class="flex items-center justify-center rounded-l-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">
+      <div>
+        <svg class="mr-2" width="18" height="18" fill="none" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.25 9.75H9.75V14.25H8.25V9.75H3.75V8.25H8.25V3.75H9.75V8.25H14.25V9.75Z" class="fill-current" />
+        </svg>
+      </div>
+      Selection
+    </button>
+    <button class="flex items-center justify-center rounded-r-lg border border-solid border-gray-800 bg-white px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 transition ease-in-out focus:bg-gray-800 focus:text-white dark:bg-opacity-0 dark:text-gray-400 dark:focus:bg-gray-400 dark:focus:text-gray-900">
+      <div>
+        <svg class="mr-2" width="18" height="18" fill="none" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.25 9.75H9.75V14.25H8.25V9.75H3.75V8.25H8.25V3.75H9.75V8.25H14.25V9.75Z" class="fill-current" />
+        </svg>
+      </div>
+      Selection
+    </button>
+  </div>
+  <!-- End Icon Leading -->
+  <!-- End Disabled -->
 
   <!-- End 'Toggles' -->
 
-  <div class="flex items-center items-center justify-center bg-white"><button class="flex items-center justify-center rounded-l-lg border border-solid border-gray-800 bg-white px-6 py-2 font-helvetica text-sm font-medium leading-5 text-gray-800 focus:bg-gray-800 focus:text-white">Selection</button> <button class="flex items-center justify-center rounded-r-lg border border-solid border-gray-800 bg-white px-6 py-2 font-helvetica text-sm font-medium leading-5 text-gray-800 focus:bg-gray-800 focus:text-white">Selection</button></div>
+  <!-- Start 'Link' -->
+  <hr class="border-gray-200 dark:border-gray-900" />
+  <h3 class="font-mono text-xs uppercase tracking-widest text-green-400 underline underline-offset-8">% Link</h3>
 
-  <!-- End 'Buttons' -->
-</div>
+    <!-- Start 'Link' -->
+    <div class="flex-col space-y-2 justify-center">
+      <div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200">
+        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17 7H13V9H17C18.65 9 20 10.35 20 12C20 13.65 18.65 15 17 15H13V17H17C19.76 17 22 14.76 22 12C22 9.24 19.76 7 17 7ZM11 15H7C5.35 15 4 13.65 4 12C4 10.35 5.35 9 7 9H11V7H7C4.24 7 2 9.24 2 12C2 14.76 4.24 17 7 17H11V15ZM8 11H16V13H8V11Z" fill="#5E5F5F" />
+        </svg></a>
+      </div>
+    <div class="flex dark:text-gray-500 ">
+      <p class="">Copy Link</p>
+    </div>
+  </div>
+  <!-- End 'Link' -->
+
+  <!-- Start 'Link' -->
+  <hr class="border-gray-200 dark:border-gray-900" />
+  <h3 class="font-mono text-xs uppercase tracking-widest text-green-400 underline underline-offset-8">% Hover</h3>
+
+  <!-- Start 'Hover (tooltip)' -->
+  <!-- End 'Hover (tooltip)' -->
+
+</section>
