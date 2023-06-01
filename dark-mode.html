@@ -156,10 +156,10 @@
   <!-- Enabled -->
   <section class="flex space-x-4">
     <!-- Default -->
-    <button class="flex items-center justify-center rounded-lg bg-gray-500 px-6 py-2 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-900 dark:focus:bg-gray-900 dark:active:bg-gray-800">Enabled</button>
+    <button class="shadow-light1 flex items-center justify-center rounded-lg bg-gray-100 px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-900 transition ease-in-out hover:bg-gray-200 focus:bg-gray-200 active:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-900 dark:focus:bg-gray-900 dark:active:bg-gray-800">Enabled</button>
 
     <!-- Icon Leading -->
-    <button class="flex items-center justify-center rounded-lg bg-gray-500 px-6 py-2 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-900 dark:focus:bg-gray-900 dark:active:bg-gray-800">
+    <button class="shadow-light1 flex items-center justify-center rounded-lg bg-gray-100 px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-900 transition ease-in-out hover:bg-gray-200 focus:bg-gray-200 active:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-900 dark:focus:bg-gray-900 dark:active:bg-gray-800">
       <div>
         <svg width="12" height="12" class="fill-current" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M11.25 6.75H6.75V11.25H5.25V6.75H0.75V5.25H5.25V0.75H6.75V5.25H11.25V6.75Z" /></svg>
       </div>
@@ -167,7 +167,7 @@
     </button>
 
     <!-- Icon Trailing -->
-    <button class="flex items-center justify-center rounded-lg bg-gray-500 px-6 py-2 font-lato text-sm font-medium leading-5 text-white transition ease-in-out hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-900 dark:focus:bg-gray-900 dark:active:bg-gray-800">
+    <button class="shadow-light1 flex items-center justify-center rounded-lg bg-gray-100 px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-900 transition ease-in-out hover:bg-gray-200 focus:bg-gray-200 active:bg-gray-300 dark:bg-gray-700 dark:text-gray-100 dark:hover:bg-gray-900 dark:focus:bg-gray-900 dark:active:bg-gray-800">
       <div class="mr-3">Enabled</div>
       <div>
         <svg width="12" height="12" class="fill-current" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M11.25 6.75H6.75V11.25H5.25V6.75H0.75V5.25H5.25V0.75H6.75V5.25H11.25V6.75Z" /></svg>
@@ -247,6 +247,55 @@
     </button>
   </section>
   <!-- End'Tonal Buttons' -->
+
+  <hr class="border-gray-200 dark:border-gray-900" />
+
+  <!-- Start'Underlined Buttons' -->
+  <h3 class="font-mono text-xs uppercase tracking-widest text-green-400 underline underline-offset-8">% Underlined Buttons</h3>
+  <!-- Enabled -->
+  <section class="flex space-x-4">
+    <!-- Default -->
+    <button class="delay-25 flex items-center justify-center rounded-lg bg-none px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 underline underline-offset-4 transition ease-in-out dark:text-gray-200 dark:hover:text-gray-400"><span class="underline underline-offset-4">Enabled</span></button>
+
+    ∂<!-- Icon Leading -->
+    <button class="delay-25 flex items-center justify-center rounded-lg bg-none px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 underline underline-offset-4 transition ease-in-out dark:text-gray-200 dark:hover:text-gray-400">
+      <div>
+        <svg class="fill-current" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M11.25 6.75H6.75V11.25H5.25V6.75H0.75V5.25H5.25V0.75H6.75V5.25H11.25V6.75Z" /></svg>
+      </div>
+      <div class="ml-3">Enabled</div>
+    </button>
+
+    <!-- Icon Trailing -->
+    <button class="delay-25 flex items-center justify-center rounded-lg bg-none px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-800 underline underline-offset-4 transition ease-in-out dark:text-gray-200 dark:hover:text-gray-400">
+      <div class="mr-3"><span class="underline underline-offset-4">Enabled</span></div>
+      <div>
+        <svg class="fill-current" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M11.25 6.75H6.75V11.25H5.25V6.75H0.75V5.25H5.25V0.75H6.75V5.25H11.25V6.75Z" /></svg>
+      </div>
+    </button>
+  </section>
+
+  <!-- Disabled -->
+  <section class="flex space-x-4">
+    <!-- Default -->
+    <button class="flex cursor-not-allowed items-center justify-center rounded-lg bg-none px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-300 dark:text-gray-700"><span class="underline underline-offset-4">Disabled</span></button>
+
+    <!-- Icon Leading -->
+    <button class="flex cursor-not-allowed items-center justify-center rounded-lg bg-none px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-300 dark:text-gray-700">
+      <div>
+        <svg width="12" height="12" class="fill-current" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M11.25 6.75H6.75V11.25H5.25V6.75H0.75V5.25H5.25V0.75H6.75V5.25H11.25V6.75Z" /></svg>
+      </div>
+      <div class="ml-3"><span class="underline underline-offset-4">Disabled</span></div>
+    </button>
+
+    <!-- Icon Trailing -->
+    <button class="flex cursor-not-allowed items-center justify-center rounded-lg bg-none px-6 py-2 font-lato text-sm font-medium leading-5 text-gray-300 dark:text-gray-700">
+      <div class="mr-3"><span class="underline underline-offset-4">Disabled</span></div>
+      <div>
+        <svg width="12" height="12" class="fill-current" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M11.25 6.75H6.75V11.25H5.25V6.75H0.75V5.25H5.25V0.75H6.75V5.25H11.25V6.75Z" /></svg>
+      </div>
+    </button>
+  </section>
+  <!-- End 'Underlined Buttons' -->
 
   <!-- End 'Buttons' -->
 </div>
