@@ -509,3 +509,723 @@
         </div>
     </div>
 </form>
+
+
+
+
+<!-- ADD1 -->
+
+<p class="ml-4 mt-4 font-mono text-gray-300">COMPONENTS</p>
+<div class="ml-8">
+
+<!-- Start 'Progress Indicators' -->
+<div class="w-full pb-10 pt-20">
+  <h2 class="text-4xl">✅ Progress Indicators</h2>
+</div>
+<section class="max-w-[280px]">
+  <h3 class="font-mono my-4">thick-pill-progress</h3>
+    <!-- Start 'thick-pill-progress' -->
+      <div class="w-full bg-gray-200 rounded-full p-0.5">
+        <div class="bg-gray-900 h-7 rounded-full" style="width: 50%"></div>
+      </div>
+    <!-- End 'thick-pill-progress' -->
+  <h3 class="font-mono my-4">thin-pill-progress</h3>
+    <!-- Start 'thin-pill-progress' -->
+      <div class="w-full bg-gray-200 rounded-full h-2">
+        <div class="bg-gray-900 h-2 rounded-full" style="width: 50%"></div>
+      </div>
+    <!-- End 'thin-pill-progress' -->
+  <h3 class="font-mono my-4">linear-progress</h3>
+    <!-- Start 'linear-progress' -->
+    <div class="flex font-lato items-center">
+      <div class="w-full bg-gray-200 rounded-full h-1.5">
+        <div class="bg-gray-900 h-1.5 rounded-full" style="width: 50%"></div>
+      </div>
+    </div>
+    <!-- End 'linear-progress' -->
+  <h3 class="font-mono my-4">percent-pill-progress</h3>
+    <!-- Start 'percent-pill-progress' -->
+      <div class="flex font-lato items-center">
+        <div class="flex w-full bg-gray-200 rounded-full h-2">
+          <div class="bg-gray-900 h-2 rounded-full" style="width: 50%"></div>
+        </div>
+        <div>
+          <p class="text-sm ml-2">50%</p>
+        </div>
+      </div>
+    <!-- End 'percent-pill-progress' -->
+  <h3 class="font-mono my-4">circular-progress</h3>
+    <!-- Start 'circular-progress' -->
+    <div role="status">
+      <svg aria-hidden="true" class="w-8 h-8 mr-2 text-gray-200 animate-spin fill-gray-900" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+            <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+      </svg>
+      <span class="sr-only">Loading...</span> 
+    </div>
+  <!-- End 'circular-progress' -->
+<!-- End 'Progress Indicators' -->
+</section>
+<!-- Start 'Tag' -->
+<section>
+  <div class="w-full pb-10 pt-20">
+    <h2 class="text-4xl">✅ Tags</h2>
+  </div>
+  <h3 class="font-mono my-4">Status - Rounded, Outlined</h3>
+  <!-- Start state='new' -->
+  <span class="inline-flex items-center border border-sky-600 px-3 py-1.5 text-sm font-bold leading-5 text-sky-600 rounded-full">
+    <svg class="mr-2 fill-white" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#00A8EC"/>
+    </svg>
+    <p>Active</p>
+  </span>
+  <!-- End state='new' -->
+  <!-- Start state='in progress' -->
+  <span class="inline-flex items-center border border-yellow-700 px-3 py-1.5 text-sm font-bold leading-5 text-yellow-700 rounded-full">
+    <svg class="mr-2 fill-white" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#997522"/>
+    </svg>
+    <p>In Progress</p>
+  </span>
+  <!-- End state='in progress' -->
+  <!-- Start state='complete' -->
+  <span class="inline-flex items-center border border-green-500 px-3 py-1.5 text-sm font-bold leading-5 text-green-500 rounded-full">
+    <svg class="mr-2 fill-white" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#34A145"/>
+    </svg>
+    <p>Complete</p>
+  </span>
+  <!-- End state='complete' -->
+  <!-- Start state='error' -->
+  <span class="inline-flex items-center border border-red-500 px-3 py-1.5 text-sm font-bold leading-5 text-red-500 rounded-full">
+    <svg class="mr-2 fill-white" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#E52628"/>
+    </svg>
+    <p>Complete</p>
+  </span>
+  <!-- End state='error' -->
+  <!-- Start state='created' -->
+  <span class="inline-flex items-center border border-night-500 px-3 py-1.5 text-sm font-bold leading-5 text-night-500 rounded-full">
+    <svg class="mr-2 fill-white" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#6D7284"/>
+    </svg>
+    <p>Created</p>
+  </span>
+  <!-- End state='created' -->
+<h3 class="font-mono mt-8 mb-2">Rounded, Outlined</h3>
+  <!-- Start state='new' -->
+  <span class="inline-flex items-center border border-sky-600 px-3 py-1.5 text-sm font-bold leading-5 text-sky-600 rounded-full">
+      <circle cx="4" cy="4" r="4" fill="#00A8EC"/>
+    </svg>
+    <p>Active</p>
+  </span>
+  <!-- End state='new' -->
+  <!-- Start state='in progress' -->
+  <span class="inline-flex items-center border border-yellow-700 px-3 py-1.5 text-sm font-bold leading-5 text-yellow-700 rounded-full">
+      <circle cx="4" cy="4" r="4" fill="#997522"/>
+    </svg>
+    <p>In Progress</p>
+  </span>
+  <!-- End state='in progress' -->
+  <!-- Start state='complete' -->
+  <span class="inline-flex items-center border border-green-500 px-3 py-1.5 text-sm font-bold leading-5 text-green-500 rounded-full">
+      <circle cx="4" cy="4" r="4" fill="#34A145"/>
+    </svg>
+    <p>Complete</p>
+  </span>
+  <!-- End state='complete' -->
+  <!-- Start state='error' -->
+  <span class="inline-flex items-center border border-red-500 px-3 py-1.5 text-sm font-bold leading-5 text-red-500 rounded-full">
+      <circle cx="4" cy="4" r="4" fill="#E52628"/>
+    </svg>
+    <p>Complete</p>
+  </span>
+  <!-- End state='error' -->
+  <!-- Start state='created' -->
+  <span class="inline-flex items-center border border-night-500 px-3 py-1.5 text-sm font-bold leading-5 text-night-500 rounded-full">
+      <circle cx="4" cy="4" r="4" fill="#6D7284"/>
+    </svg>
+    <p>Created</p>
+  </span>
+  <!-- End state='created' -->
+<h3 class="font-mono mt-8 mb-2">Status Squared, Filled</h3>
+  <!-- Start state='new' -->
+  <span class="inline-flex items-center bg-sky-50 border-sky-600 px-3 py-1.5 text-sm font-bold leading-5 text-sky-600 rounded-lg">
+    <svg class="mr-2" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#00A8EC"/>
+    </svg>
+    <p>Active</p>
+  </span>
+  <!-- End state='new' -->
+  <!-- Start state='in progress' -->
+  <span class="inline-flex items-center bg-yellow-100 px-3 py-1.5 text-sm font-bold leading-5 text-yellow-700 rounded-lg">
+    <svg class="mr-2" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#997522"/>
+    </svg>
+    <p>In Progress</p>
+  </span>
+  <!-- End state='in progress' -->
+  <!-- Start state='complete' -->
+  <span class="inline-flex items-center bg-green-50 px-3 py-1.5 text-sm font-bold leading-5 text-green-400 rounded-full">
+    <svg class="mr-2" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#34A145"/>
+    </svg>
+    <p>Complete</p>
+  </span>
+  <!-- End state='complete' -->
+  <!-- Start state='cancelled' -->
+  <span class="inline-flex items-center bg-red-50 px-3 py-1.5 text-sm font-bold leading-5 text-red-500 rounded-lg">
+    <svg class="mr-2" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#E52628"/>
+    </svg>
+    <p>Cancelled</p>
+  </span>
+  <!-- End state='cancelled' -->
+  <!-- Start state='created' -->
+  <span class="inline-flex items-center bg-night-50 px-3 py-1.5 text-sm font-bold leading-5 text-night-500 rounded-lg">
+    <svg class="mr-2" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="4" cy="4" r="4" fill="#6D7284"/>
+    </svg>
+    Created 
+  </span>
+  <!-- End state='created' -->
+<h3 class="font-mono mt-8 mb-2">Status Squared, Filled</h3>
+  <!-- Start state='new' -->
+  <span class="inline-flex items-center bg-sky-50 border-sky-600 px-3 py-1.5 text-sm font-bold leading-5 text-sky-600 rounded-lg">
+    Active
+  </span>
+  <!-- End state='new' -->
+  <!-- Start state='in progress' -->
+  <span class="inline-flex items-center bg-yellow-100 px-3 py-1.5 text-sm font-bold leading-5 text-yellow-700 rounded-lg">
+    In Progress
+  </span>
+  <!-- End state='in progress' -->
+  <!-- Start state='complete' -->
+  <span class="inline-flex items-center bg-green-50 px-3 py-1.5 text-sm font-bold leading-5 text-green-400 rounded-lg">
+    Complete
+  </span>
+  <!-- End state='complete' -->
+  <!-- Start state='cancelled' -->
+  <span class="inline-flex items-center bg-red-50 px-3 py-1.5 text-sm font-bold leading-5 text-red-500 rounded-lg">
+    Cancelled 
+  </span>
+  <!-- End state='cancelled' -->
+  <!-- Start state='created' -->
+  <span class="inline-flex items-center bg-night-50 px-3 py-1.5 text-sm font-bold leading-5 text-night-500 rounded-lg">
+    Created 
+  </span>
+  <!-- End state='created' -->
+</section>
+
+<section>
+  <div class="w-full pb-10 pt-20">
+    <h2 class="text-4xl">✅ Tooltip</h2>
+  </div>
+<!-- Start 'Tooltip Default' -->
+  <h3 class="font-mono mt-8 mb-2">Default</h3>
+  <div class="py-10 flex space-x-8">
+  <!-- Start right arrow -->
+    <div class="relative bg-gray-100 px-3 py-2 rounded-lg">
+      <div class="text-gray-800 text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute right-0 rounded-[2px] top-1/2 transform translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-gray-100"></div>
+    </div>
+  <!-- End right arrow -->
+  <!-- Start bottom arrow -->
+  <div class="relative bg-gray-100 px-3 py-2 rounded-lg">
+      <div class="text-gray-800 text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute bottom-0 left-1/2 rounded-[2px] transform -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-gray-100"></div>
+    </div>
+  <!-- End center arrow -->
+  <!-- Start left arrow -->
+    <div class="relative bg-gray-100 px-3 py-2 rounded-lg">
+      <div class="text-gray-800 text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute left-0 top-1/2 rounded-[2px] transform -translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-gray-100"></div>
+    </div>
+  <!-- End left arrow -->
+  <!-- Start bottom arrow -->
+  <div class="relative bg-gray-100 px-3 py-2 rounded-lg">
+    <div class="text-gray-800 text-sm">
+      <p>Tooltip</p>
+    </div>
+    <div class="absolute top-0 left-1/2 rounded-[2px] transform -translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-gray-100"></div>
+  </div>
+  <!-- End bottom arrow -->
+</div>
+<h3 class="font-mono mt-8 mb-2">Dark</h3>
+<div class="py-10 flex space-x-8">
+<!-- Start 'Tooltip Dark' -->
+  <!-- Start right arrow -->
+    <div class="relative bg-gray-800 px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));">
+      <div class="text-white text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute right-0 rounded-[2px] top-1/2 transform translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-gray-800"></div>
+    </div>
+  <!-- End right arrow -->
+  <!-- Start bottom arrow -->
+  <div class="relative bg-gray-800 px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));">
+      <div class="text-white text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute bottom-0 left-1/2 rounded-[2px] transform -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-gray-800"></div>
+    </div>
+  <!-- End bottom center arrow -->
+  <!-- Start left arrow -->
+    <div class="relative bg-gray-800 px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));">
+      <div class="text-white text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute left-0 top-1/2 rounded-[2px] transform -translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-gray-800"></div>
+    </div>
+  <!-- End left arrow -->
+  <!-- Start bottom arrow -->
+  <div class="relative bg-gray-800 px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));">
+    <div class="text-white text-sm">
+      <p>Tooltip</p>
+    </div>
+    <div class="absolute top-0 left-1/2 rounded-[2px] transform -translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-gray-800"></div>
+  </div>
+  <!-- End bottom arrow -->
+</div>
+<!-- End 'Tooltip Dark' -->
+<h3 class="font-mono mt-8 mb-2">Light</h3>
+<div class="py-10 flex space-x-8">
+<!-- Start 'Tooltip Light' -->
+  <!-- Start right arrow -->
+    <div class="relative bg-white px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));">
+      <div class="text-gray-900 text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute right-0 rounded-[2px] top-1/2 transform translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-white" ></div>
+    </div>
+  <!-- End right arrow -->
+  <!-- Start bottom arrow -->
+  <div class="relative bg-white px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));">
+      <div class="text-gray-900 text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute bottom-0 left-1/2 rounded-[2px] transform -translate-x-1/2 translate-y-1/2 rotate-45 w-2 h-2 bg-white"></div>
+    </div>
+  <!-- End bottom center arrow -->
+  <!-- Start left arrow -->
+    <div class="relative bg-white px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));">
+      <div class="text-gray-900 text-sm">
+        <p>Tooltip</p>
+      </div>
+      <div class="absolute left-0 top-1/2 rounded-[2px] transform -translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-white"></div>
+    </div>
+  <!-- End left arrow -->
+  <!-- Start bottom arrow -->
+  <div class="relative bg-white px-3 py-2 rounded-lg" style="filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));">
+    <div class="text-gray-900 text-sm">
+      <p>Tooltip</p>
+    </div>
+    <div class="absolute top-0 left-1/2 rounded-[2px] transform -translate-x-1/2 -translate-y-1/2 rotate-45 w-2 h-2 bg-white"></div>
+  </div>
+  <!-- End bottom arrow -->
+</div>
+<!-- End 'Tooltip Light' -->
+</section>
+<!-- Start 'Scrollbars' -->
+<section>
+  <div class="w-full pb-10 pt-20">
+    <h2 class="text-4xl">✅ Scrollbars</h2>
+  </div>
+  <h3 class="font-mono my-4">horizontal</h3>
+<section class="mt-8 space-y-10 max-w-[250px]">
+  <div class="flex w-full h-1 bg-gray-200 rounded-full overflow-hidden dark:bg-gray-700">
+  <div class="flex flex-col justify-center rounded-full overflow-hidden bg-gray-800" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="flex w-full h-1 bg-gray-200 rounded-full overflow-hidden">
+  <div class="flex flex-col justify-center overflow-hidden rounded-full bg-gray-800" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+  <div class="flex flex-col justify-center overflow-hidden rounded-full bg-gray-800" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="flex w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+  <div class="flex flex-col justify-center overflow-hidden rounded-full bg-gray-800" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</section>
+<div class="mt-20"></div>
+<h3 class="font-mono my-4">vertical</h3>
+<div class="flex space-x-10 h-[250px]">
+  <div class="flex flex-col flex-nowrap justify-end w-1 h-full bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="flex flex-col flex-nowrap h-full justify-end w-1 bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="flex flex-col flex-nowrap h-full justify-end w-2 bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="flex flex-col flex-nowrap justify-end h-full w-2 bg-gray-200 rounded-full overflow-hidden">
+    <div class="bg-gray-800 overflow-hidden" role="progressbar" style="height: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+</section>
+  <div class="w-full pb-10 pt-20">
+    <h2 class="text-4xl">✅ Progress Widgets</h2>
+  </div>
+  <section>
+  <div class="flex space-x-4">
+    <div>
+    <!-- Start 'progress-widget-01' -->
+    <div class="inline-block">
+      <div class="font-lato space-y-9 rounded-lg bg-gray-100 p-5 text-black">
+        <div>
+          <div class="flex flex-col space-y-3">            
+              <p>In progress</p>
+            <div class="w-full rounded-full bg-gray-200 p-0.5">
+              <div class="h-7 rounded-full bg-gray-800" style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center space-y-1">
+          <h3 class="font-bold">Estimated processing</h3>
+          <p class="text-gray-900">4-5 business days</p>
+        </div>
+        <div>
+          <button class="font-lato flex w-full items-center justify-center rounded-lg bg-gray-800 px-6 py-2 text-sm font-medium text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300">View status</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- End 'progress-widget-01' -->
+    <!-- Start 'progress-widget-02' -->
+    <div class="inline-block">
+      <div class="font-lato flex-col space-y-9 rounded-lg bg-gray-100 p-5 text-black">
+          <div class="flex flex-col space-y-3">
+            <div class="space-y-2">
+              <h1 class="bold text-2xl">Progress title</h1>
+              <p>In progress</p>
+            </div>
+            <div class="w-full rounded-full bg-gray-200 p-0.5">
+              <div class="h-7 rounded-full bg-gray-800" style="width: 50%"></div>
+            </div>
+          </div>
+        <div class="text-center space-y-1">
+          <h3 class="font-bold">Estimated processing</h3>
+          <p class="text-gray-900">4-5 business days</p>
+        </div>
+      </div>
+      </div>
+    <!-- End 'progress-widget-02' -->
+    <!-- Start 'progress-widget-03' -->
+    <div class="inline-block">
+      <div class="font-lato flex-col space-y-9 rounded-lg bg-gray-100 p-5 text-black">
+        <div>
+          <div class="flex flex-col space-y-3">
+            <div class="space-y-2">
+              <h1 class="bold text-2xl">Progress title</h1>
+              <p>In progress</p>
+            </div>
+            <div class="w-full rounded-full bg-gray-200 p-0.5">
+              <div class="h-7 rounded-full bg-gray-800" style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="font-lato flex w-full items-center justify-center rounded-lg bg-gray-800 px-6 py-2 text-sm font-medium text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300">View status</button>
+        </div>
+      </div>
+    </div>
+    <!-- End 'progress-widget-03' -->
+  </div>
+  <div class="mt-14 flex space-x-4 align-top">
+    <!-- Start 'progress-widget-04' -->
+      <div class="font-lato flex-col space-y-9 rounded-lg bg-gray-100 p-5 text-black">
+        <div>
+          <div class="flex flex-col space-y-3">
+            <div class="space-y-2">
+              <h1>In progress</h1>
+            </div>
+            <div class="w-full rounded-full bg-gray-200 p-0.5">
+              <div class="h-7 rounded-full bg-gray-800" style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <h3 class="font-bold">Estimated processing</h3>
+          <p class="text-gray-900">4-5 business days</p>
+        </div>
+      </div>
+    <!-- End 'progress-widget-04' -->
+    <!-- Start 'progress-widget-05' -->
+    <div class="inline-block">
+      <div class="font-lato flex-col space-y-9 rounded-lg bg-gray-100 p-5 text-black">
+        <div>
+          <div class="flex flex-col space-y-3">
+            <div class="space-y-2">
+              <h1>In progress</h1>
+            </div>
+            <div class="w-full rounded-full bg-gray-200 p-0.5">
+              <div class="h-7 rounded-full bg-gray-800" style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="font-lato flex w-full items-center justify-center rounded-lg bg-gray-800 px-6 py-2 text-sm font-medium text-white hover:bg-gray-400 focus:bg-gray-400 active:bg-gray-300">View status</button>
+        </div>
+      </div>
+    </div>
+    <!-- End 'progress-widget-05' -->
+    <!-- Start 'progress-widget-06' -->
+    <div class="inline-block">
+    <div class="font-lato space-y-9 rounded-lg bg-gray-100 p-5 text-black">
+      <div>
+        <div class="flex flex-col space-y-3">
+          <div class="space-y-2">
+            <h1 class="bold text-2xl">Progress title</h1>
+            <p>In progress</p>
+          </div>
+          <div class="w-full rounded-full bg-gray-200 p-0.5">
+            <div class="h-7 rounded-full bg-gray-800" style="width: 50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End 'progress-widget-06' -->
+  <!-- Start 'progress-widget-07' -->
+    <div class="inline-block">
+      <div class="font-lato flex-col space-y-9 rounded-lg bg-gray-100 p-5 text-black">
+        <div>
+          <div class="flex flex-col space-y-3">
+            <div class="space-y-2">
+              <h1>In progress</h1>
+            </div>
+            <div class="w-full rounded-full bg-gray-200 p-0.5">
+              <div class="h-7 rounded-full bg-gray-800" style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End 'progress-widget-07' -->
+    </section>
+  <section class="mt-20">
+    <div class="w-full pb-10 pt-20">
+    <h2 class="text-4xl">✅ Event Widget</h2>
+  </div>
+    <!-- Start 'Event widget' -->
+      <!-- Start 'widget-event' -->
+      <div class="font-lato inline-block p-5 bg-gray-50 rounded-[1.25rem]">
+        <div>
+          <div class="flex">
+            <svg class="self-center mr-2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4" fill="#34A145"/>
+            </svg>
+            <h1 class="bold text-base">Board meeting</h1>
+          </div>
+        <div class="mt-2">
+          <p class="text-sm">Feb 22 at 6:00 pm</p>
+        </div>
+          <p class="text-[10px] mt-4">You have been invited to attend a meeting of board directors.</p>
+        </div>
+      </div>
+      <!-- End 'widget-event' -->
+      <!-- Start 'widget-event (disabled)' -->
+      <div class="font-lato inline-block align-top p-5 bg-gray-50 rounded-[1.25rem]">
+        <div>
+          <div class="flex">
+            <svg class="self-center mr-2" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="4" cy="4" r="4" fill="#34A145"/>
+            </svg>
+            <h1 class="bold text-base">Board meeting</h1>
+          </div>
+        <div class="mt-2">
+          <p class="text-sm">Feb 22 at 6:00 pm</p>
+        </div>
+      </div>
+      </div>
+      <!-- End 'widget-event (disabled)' -->
+      <!-- End 'Event widget' -->
+  </section>
+  <div class="w-full pb-10 pt-20">
+    <h2 class="text-4xl">✅ Money Widget</h2>
+  </div>
+<!-- Start 'Money widget' -->
+<section class="flex space-x-10 p-4">
+  <!-- Start 'money-widget (enabled/enabled)' -->
+    <div class="bg-gray-50 font-lato p-5 w-[200px] space-y-12 rounded-[1.25rem]">
+      <div class="flex justify-between">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40 8H8C5.78 8 4.02 9.78 4.02 12L4 36C4 38.22 5.78 40 8 40H40C42.22 40 44 38.22 44 36V12C44 9.78 42.22 8 40 8ZM40 36H8V24H40V36ZM40 16H8V12H40V16Z" fill="black"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 8C13.1 8 14 7.1 14 6C14 4.9 13.1 4 12 4C10.9 4 10 4.9 10 6C10 7.1 10.9 8 12 8ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM12 16C10.9 16 10 16.9 10 18C10 19.1 10.9 20 12 20C13.1 20 14 19.1 14 18C14 16.9 13.1 16 12 16Z" fill="#323232"/>
+        </svg>
+      </div>
+      <div>
+        <h1 class="font-bold text-2xl">
+          100,000
+        </h1>
+        <p class="text-sm">Text</p>
+      </div>
+    </div>
+  <!-- End 'money-widget (enabled/enabled)' -->
+  <!-- Start 'money-widget (disabled/enabled)' -->
+    <div class="bg-gray-50 font-lato p-5 w-[200px] space-y-12 rounded-[1.25rem]">
+      <div class="flex justify-between">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40 8H8C5.78 8 4.02 9.78 4.02 12L4 36C4 38.22 5.78 40 8 40H40C42.22 40 44 38.22 44 36V12C44 9.78 42.22 8 40 8ZM40 36H8V24H40V36ZM40 16H8V12H40V16Z" fill="black"/>
+        </svg>
+      </div>
+      <div>
+        <h1 class="font-bold text-2xl">
+          100,000
+        </h1>
+        <p class="text-sm">Text</p>
+      </div>
+    </div>
+  <!-- End tart 'money-widget (disabled/enabled)' -->
+  <!-- Start 'money-widget (enabled/disabled)' -->
+    <div class="bg-gray-50 font-lato p-5 w-[200px] space-y-20 rounded-[1.25rem]">
+      <div class="flex justify-between ">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40 8H8C5.78 8 4.02 9.78 4.02 12L4 36C4 38.22 5.78 40 8 40H40C42.22 40 44 38.22 44 36V12C44 9.78 42.22 8 40 8ZM40 36H8V24H40V36ZM40 16H8V12H40V16Z" fill="black"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 8C13.1 8 14 7.1 14 6C14 4.9 13.1 4 12 4C10.9 4 10 4.9 10 6C10 7.1 10.9 8 12 8ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM12 16C10.9 16 10 16.9 10 18C10 19.1 10.9 20 12 20C13.1 20 14 19.1 14 18C14 16.9 13.1 16 12 16Z" fill="#323232"/>
+        </svg>
+      </div>
+      <div class="">
+        <h1 class="font-bold text-2xl">
+          100,000
+        </h1>
+      </div>
+    </div>
+  <!-- End 'money-widget (enabled/disabled)' -->
+  <!-- Start 'money-widget (disabled/disabled)' -->
+    <div class="bg-gray-50 font-lato p-5 w-[200px] space-y-20 rounded-[1.25rem]">
+      <div class="flex justify-between ">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M40 8H8C5.78 8 4.02 9.78 4.02 12L4 36C4 38.22 5.78 40 8 40H40C42.22 40 44 38.22 44 36V12C44 9.78 42.22 8 40 8ZM40 36H8V24H40V36ZM40 16H8V12H40V16Z" fill="black"/>
+        </svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 8C13.1 8 14 7.1 14 6C14 4.9 13.1 4 12 4C10.9 4 10 4.9 10 6C10 7.1 10.9 8 12 8ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM12 16C10.9 16 10 16.9 10 18C10 19.1 10.9 20 12 20C13.1 20 14 19.1 14 18C14 16.9 13.1 16 12 16Z" fill="#323232"/>
+        </svg>
+      </div>
+      <div class="">
+        <h1 class="font-bold text-2xl">
+          100,000
+        </h1>
+      </div>
+    </div>
+  <!-- End 'money-widget (disabled/disabled)' -->
+</section>
+<!-- End 'Money widget' -->
+</section>
+<!-- End 'Metric widget' -->
+<section class="flex space-x-10 rounded p-4">
+  <!-- Start 'money-widget (enabled/enabled)' -->
+    <div class="bg-gray-50 font-lato p-5 rounded-[1.25rem] w-[250px] space-y-4"> 
+      <div class="flex justify-between">
+        <h1 class="text-bold text-black">Title</h1>
+        <a href="" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 8C13.1 8 14 7.1 14 6C14 4.9 13.1 4 12 4C10.9 4 10 4.9 10 6C10 7.1 10.9 8 12 8ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM12 16C10.9 16 10 16.9 10 18C10 19.1 10.9 20 12 20C13.1 20 14 19.1 14 18C14 16.9 13.1 16 12 16Z" fill="#323232"/>
+</svg></a>
+      </div>
+      <div class="flex justify-between mt-4">
+        <p class="text-5xl">#</p>
+        <p class="text-sm self-end">
+          <span class="inline-flex items-center bg-green-50 px-3 py-1.5 text-sm font-bold leading-5 text-green-400 rounded-full">
+    +18.75%
+  </span>
+      </div>
+    </div>
+  <!-- End 'money-widget (enabled/enabled)' -->
+  <!-- Start 'money-widget (enabled/enabled)' -->
+    <div class="bg-gray-50 font-lato p-5 rounded-[1.25rem] w-[250px] space-y-4"> 
+      <div class="flex justify-between">
+        <h1 class="text-bold text-black">Title</h1>
+        <a href="" ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 8C13.1 8 14 7.1 14 6C14 4.9 13.1 4 12 4C10.9 4 10 4.9 10 6C10 7.1 10.9 8 12 8ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10ZM12 16C10.9 16 10 16.9 10 18C10 19.1 10.9 20 12 20C13.1 20 14 19.1 14 18C14 16.9 13.1 16 12 16Z" fill="#323232"/>
+</svg></a>
+      </div>
+      <div class="flex justify-between mt-4">
+        <p class="text-5xl">#</p>
+        <p class="text-sm self-end">
+      </div>
+    </div>
+  <!-- End 'money-widget (enabled/enabled)' -->
+  <!-- Start 'money-widget (enabled/enabled)' -->
+    <div class="bg-gray-50 font-lato p-5 rounded-[1.25rem] w-[250px] space-y-4"> 
+      <div class="flex justify-between">
+        <h1 class="text-bold text-black">Title</h1>
+      </div>
+      <div class="flex justify-between mt-4">
+        <p class="text-5xl">#</p>
+        <p class="text-sm self-end">
+          <span class="inline-flex items-center bg-green-50 px-3 py-1.5 text-sm font-bold leading-5 text-green-400 rounded-full">
+            +18.75%
+          </span>
+      </div>
+    </div>
+  <!-- End 'money-widget (enabled/enabled)' -->
+  <!-- Start 'money-widget (enabled/enabled)' -->
+    <div class="bg-gray-50 font-lato p-5 rounded-[1.25rem] w-[250px] space-y-4"> 
+      <div class="flex justify-between">
+        <h1 class="text-bold text-black">Title</h1>
+      </div>
+      <div class="flex justify-between mt-4">
+        <p class="text-5xl">#</p>
+        <p class="text-sm self-end">
+      </div>
+    </div>
+  <!-- End 'money-widget (enabled/enabled)' -->
+</section>
+<div class="w-full pb-10 pt-20">
+  <h2 class="text-4xl ">✅ Inbox widget</h2>
+</div>
+<!-- Start 'Inbox widget' -->
+<section class="max-w-[872px]">
+  <div class="flex bg-gray-50 font-lato items-center justify-between p-5 rounded-t-[20px]">
+    <h1 class="font-bold text-lg">Recent conversations</h1>
+    <a href="" class="text-gray-500 text-sm">View all</a>
+  </div>
+  <div class="flex bg-gray-50 items-center p-5">
+    <div class="flex items-center space-x-2.5 w-1/3">
+      <img class="object-fill h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/51.jpg" />
+      <p class="text-sm">Jane Doe</p>
+    </div>
+    <div class="text-left w-full px-6 text-sm">
+      <p>Just finished scheduling the meeting! See you soon 😄</p>
+      </div>
+      <div class="text-right w-20% text-sm">
+      <p class="text-">November 29</p>
+      </div>
+    </div>
+    <div class="flex bg-gray-50 items-center p-5">
+    <div class="flex items-center space-x-2.5 w-1/3">
+      <img class="object-fill h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/women/83.jpg" />
+      <p class="text-sm">Kathryn Harrison</p>
+    </div>
+    <div class="text-left w-full px-6 text-sm">
+      <p>Please send me the latest report on the market status.</p>
+      </div>
+      <div class="text-right w-20% text-sm">
+      <p class="text-">November 29</p>
+      </div>
+    </div>
+    <div class="flex bg-gray-50 items-center p-5 round-b-[20px]">
+    <div class="flex items-center space-x-2.5 w-1/3">
+      <img class="object-fill h-12 w-12 rounded-full" src="https://randomuser.me/api/portraits/men/73.jpg" />
+      <p class="text-sm">Sergio Pierce</p>
+    </div>
+    <div class="text-left w-full px-6 text-sm">
+      <p>Product launch is near! Are you ready?</p>
+      </div>
+      <div class="text-right w-20% text-sm">
+      <p class="text-">November 29</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
